@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a541d407cc1ae46afe6055ab13a57f, type: 3}
+  m_Name: PythonLevel19_3
+  m_EditorClassIdentifier: 
+  level: 19
+  mission: 3
+  startScore: 100
+  minScore: 10
+  scorePenalty: 10
+  correctAnswer: 50
+  codeChecks:
+  - checkName: 1
+    pattern: (?=.*def\s+ChangBody\s*\(\s*num\s*\)\s*:[\t ]*)
+    failMessage: 1
+  - checkName: 2
+    pattern: (?=.*[\t ]*return\s+45\s*\+\s*num[\t ]*)
+    failMessage: 2
+  - checkName: 3
+    pattern: (?=.*if\s+__name__\s*==\s*["']__main__["']\s*:[\t ]*)
+    failMessage: 3
+  - checkName: 4
+    pattern: (?=.*[\t ]*power\s*=\s*ChangBody\s*\(\s*5\s*\)[\t ]*)
+    failMessage: 4
+  - checkName: 5
+    pattern: (?=.*[\t ]*print\s*\(\s*power\s*\)[\t ]*)
+    failMessage: 5

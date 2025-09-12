@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a541d407cc1ae46afe6055ab13a57f, type: 3}
+  m_Name: JavaLevel14_3
+  m_EditorClassIdentifier: 
+  level: 14
+  mission: 3
+  startScore: 100
+  minScore: 10
+  scorePenalty: 10
+  correctAnswer: 'Walk Up : 0\nWalk Down : 0\nWalk Left : 0\nWalk Right : 2'
+  codeChecks:
+  - checkName: 1
+    pattern: (?=.*int\s+Up\s*=\s*0\s*;)
+    failMessage: 1
+  - checkName: 2
+    pattern: (?=.*int\s+Down\s*=\s*0\s*;)
+    failMessage: 2
+  - checkName: 3
+    pattern: (?=.*int\s+Left\s*=\s*0\s*;)
+    failMessage: 3
+  - checkName: 4
+    pattern: (?=.*int\s+Right\s*=\s*2\s*;)
+    failMessage: 4
+  - checkName: 5
+    pattern: (?=.*for\s*\(\s*int\s+i\s*=\s*0\s*;\s*i\s*<\s*1\s*;\s*i\+\+\s*\)\s*\{)
+    failMessage: 5
+  - checkName: 6
+    pattern: (?=.*System\.out\.println\s*\(\s*"Walk Up\s*:\s*"\s*\+\s*Up\s*\)\s*;)
+    failMessage: 6
+  - checkName: 7
+    pattern: (?=.*System\.out\.println\s*\(\s*"Walk Down\s*:\s*"\s*\+\s*Down\s*\)\s*;)
+    failMessage: 7
+  - checkName: 8
+    pattern: (?=.*System\.out\.println\s*\(\s*"Walk Right\s*:\s*"\s*\+\s*Right\s*\)\s*;)
+    failMessage: 8
+  - checkName: 9
+    pattern: (?=.*System\.out\.println\s*\(\s*"Walk Left\s*:\s*"\s*\+\s*Left\s*\)\s*;)
+    failMessage: 9

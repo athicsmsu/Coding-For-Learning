@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a541d407cc1ae46afe6055ab13a57f, type: 3}
+  m_Name: JavaLevel13_3
+  m_EditorClassIdentifier: 
+  level: 13
+  mission: 3
+  startScore: 100
+  minScore: 10
+  scorePenalty: 10
+  correctAnswer: Shield number1\nShield number2\nShield number3\nShield number4\nShield
+    number5
+  codeChecks:
+  - checkName: 1
+    pattern: (?=.*int\s+i\s*=\s*0\s*;)
+    failMessage: 1
+  - checkName: 2
+    pattern: (?=.*while\s*\(\s*i\s*<\s*5\s*\)\s*\{)
+    failMessage: 2
+  - checkName: 3
+    pattern: (?=.*System\.out\.println\s*\(\s*"Shield number"\s*\+\s*\(\s*i\s*\+\s*1\s*\)\s*\)\s*;)
+    failMessage: 3
+  - checkName: 4
+    pattern: (?=.*i\s*=\s*i\s*\+\s*1\s*;)
+    failMessage: 4

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d8978b78edc61f94e93bd7b64cea6d72
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - btnEdit: {instanceID: 0}
+  - javaScore: {instanceID: 0}
+  - pythonScore: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

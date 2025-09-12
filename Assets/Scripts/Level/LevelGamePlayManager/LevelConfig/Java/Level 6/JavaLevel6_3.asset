@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a541d407cc1ae46afe6055ab13a57f, type: 3}
+  m_Name: JavaLevel6_3
+  m_EditorClassIdentifier: 
+  level: 6
+  mission: 3
+  startScore: 100
+  minScore: 10
+  scorePenalty: 10
+  correctAnswer: 20\n172.4\nM\nSomsak\ntrue
+  codeChecks:
+  - checkName: Check Age int
+    pattern: int\s+Age\s*=\s*20\s*;
+    failMessage: "\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E15\u0E31\u0E27\u0E41\u0E1B\u0E23
+      Age \u0E40\u0E1B\u0E47\u0E19 int \u0E41\u0E25\u0E30\u0E21\u0E35\u0E04\u0E48\u0E32
+      20"
+  - checkName: Check Height float
+    pattern: float\s+Height\s*=\s*172\.4f\s*;
+    failMessage: "\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E15\u0E31\u0E27\u0E41\u0E1B\u0E23
+      Height \u0E40\u0E1B\u0E47\u0E19 float \u0E41\u0E25\u0E30\u0E21\u0E35\u0E04\u0E48\u0E32
+      172.4f"
+  - checkName: Check Gender char
+    pattern: char\s+Gender\s*=\s*'M'\s*;
+    failMessage: "\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E15\u0E31\u0E27\u0E41\u0E1B\u0E23
+      Gender \u0E40\u0E1B\u0E47\u0E19 char \u0E41\u0E25\u0E30\u0E21\u0E35\u0E04\u0E48\u0E32
+      'M'"
+  - checkName: Check Name string
+    pattern: String\s+Name\s*=\s*"Somsak"\s*;
+    failMessage: "\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E15\u0E31\u0E27\u0E41\u0E1B\u0E23
+      Name \u0E40\u0E1B\u0E47\u0E19 String \u0E41\u0E25\u0E30\u0E21\u0E35\u0E04\u0E48\u0E32
+      \\\"Somsak\\\""
+  - checkName: Check Ready boolean
+    pattern: boolean\s+Ready\s*=\s*true\s*;
+    failMessage: "\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E33\u0E2B\u0E19\u0E14\u0E15\u0E31\u0E27\u0E41\u0E1B\u0E23
+      Ready \u0E40\u0E1B\u0E47\u0E19 boolean \u0E41\u0E25\u0E30\u0E21\u0E35\u0E04\u0E48\u0E32
+      true"
+  - checkName: Print Age
+    pattern: System\.out\.println\s*\(\s*Age\s*\)
+    failMessage: "\u0E15\u0E49\u0E2D\u0E07\u0E41\u0E2A\u0E14\u0E07\u0E1C\u0E25\u0E15\u0E31\u0E27\u0E41\u0E1B\u0E23
+      Age \u0E14\u0E49\u0E27\u0E22 System.out.println"
+  - checkName: Print Height
+    pattern: System\.out\.println\s*\(\s*Height\s*\)
+    failMessage: "\u0E15\u0E49\u0E2D\u0E07\u0E41\u0E2A\u0E14\u0E07\u0E1C\u0E25\u0E15\u0E31\u0E27\u0E41\u0E1B\u0E23
+      Height \u0E14\u0E49\u0E27\u0E22 System.out.println"
+  - checkName: Print Gender
+    pattern: System\.out\.println\s*\(\s*Gender\s*\)
+    failMessage: "\u0E15\u0E49\u0E2D\u0E07\u0E41\u0E2A\u0E14\u0E07\u0E1C\u0E25\u0E15\u0E31\u0E27\u0E41\u0E1B\u0E23
+      Gender \u0E14\u0E49\u0E27\u0E22 System.out.println"
+  - checkName: Print Name
+    pattern: System\.out\.println\s*\(\s*Name\s*\)
+    failMessage: "\u0E15\u0E49\u0E2D\u0E07\u0E41\u0E2A\u0E14\u0E07\u0E1C\u0E25\u0E15\u0E31\u0E27\u0E41\u0E1B\u0E23
+      Name \u0E14\u0E49\u0E27\u0E22 System.out.println"
+  - checkName: Print Ready
+    pattern: System\.out\.println\s*\(\s*Ready\s*\)
+    failMessage: "\u0E15\u0E49\u0E2D\u0E07\u0E41\u0E2A\u0E14\u0E07\u0E1C\u0E25\u0E15\u0E31\u0E27\u0E41\u0E1B\u0E23
+      Ready \u0E14\u0E49\u0E27\u0E22 System.out.println"

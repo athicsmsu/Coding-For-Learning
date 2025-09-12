@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a541d407cc1ae46afe6055ab13a57f, type: 3}
+  m_Name: PythonLevel13_3
+  m_EditorClassIdentifier: 
+  level: 13
+  mission: 3
+  startScore: 100
+  minScore: 10
+  scorePenalty: 10
+  correctAnswer: 'Walk Up : 0\nWalk Down : 0\nWalk Left : 0\nWalk Right : 2'
+  codeChecks:
+  - checkName: 1
+    pattern: (?=.*Up[\t ]*=[\t ]*0)
+    failMessage: 1
+  - checkName: 2
+    pattern: (?=.*Down[\t ]*=[\t ]*0)
+    failMessage: 2
+  - checkName: 3
+    pattern: (?=.*Left[\t ]*=[\t ]*0)
+    failMessage: 3
+  - checkName: 4
+    pattern: (?=.*Right[\t ]*=[\t ]*2)
+    failMessage: 4
+  - checkName: 5
+    pattern: (?=.*for[\t ]+i[\t ]+in[\t ]+range\s*\([\t ]*1[\t ]*\)[\t ]*:)
+    failMessage: 5
+  - checkName: 6
+    pattern: (?=.*print[\t ]*\([\t ]*["']Walk Up\s*:[\t ]*["'][\t ]*,[\t ]*Up[\t
+      ]*\))
+    failMessage: 6
+  - checkName: 7
+    pattern: (?=.*print[\t ]*\([\t ]*["']Walk Down\s*:[\t ]*["'][\t ]*,[\t ]*Down[\t
+      ]*\))
+    failMessage: 7
+  - checkName: 8
+    pattern: (?=.*print[\t ]*\([\t ]*["']Walk Left\s*:[\t ]*["'][\t ]*,[\t ]*Left[\t
+      ]*\))
+    failMessage: 8
+  - checkName: 9
+    pattern: (?=.*print[\t ]*\([\t ]*["']Walk Right\s*:[\t ]*["'][\t ]*,[\t ]*Right[\t
+      ]*\))
+    failMessage: 9

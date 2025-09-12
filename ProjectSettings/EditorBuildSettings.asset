@@ -1,0 +1,598 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 16762c1386001164494c03f905395ed5
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 794e61473be883d4d9c8cb0f24f73771
+  - enabled: 1
+    path: Assets/Scenes/Profile.unity
+    guid: d8bdb6eb972c67a44a12123614c04228
+  - enabled: 1
+    path: Assets/Scenes/Lession.unity
+    guid: fd44a01a0c38aae4b9a45d990743f57e
+  - enabled: 1
+    path: Assets/Scenes/Level.unity
+    guid: 12f468c8c5c473c4a950da0bb2f52f6d
+  - enabled: 1
+    path: Assets/Scenes/Language.unity
+    guid: 7ee5a26f065576349a761caa3de3d5f9
+  - enabled: 1
+    path: Assets/Scenes/Character.unity
+    guid: f40750e85433bb349b5f841895ffa65c
+  - enabled: 1
+    path: Assets/Scenes/QuestionNaire.unity
+    guid: 97f82bf7b8e0de4488ba28478b3cda92
+  - enabled: 1
+    path: Assets/Scenes/History.unity
+    guid: 0a2078aec71173a4f8e12990fa686f3a
+  - enabled: 1
+    path: Assets/Scenes/LevelComplete.unity
+    guid: 5aec68b1a3058b747b507895a5810632
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/info/JavaInfoLevel1.unity
+    guid: df18428dc2e2f78459ae0d507dfc0295
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/info/JavaInfoLevel2.unity
+    guid: 94f5a595c7b16114babe38055d33bb80
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/info/JavaInfoLevel3.unity
+    guid: 996796ef2000dd340bdcaddb3d772204
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/info/JavaInfoLevel4.unity
+    guid: 230353affea239a4ea597f1019ae0a95
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/info/JavaInfoLevel5.unity
+    guid: 16c39a3682f1b884bad72f19265f3e0e
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/info/JavaInfoLevel6.unity
+    guid: 4f03087beea1f9f4e88a8280f3b0af7f
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/info/JavaInfoLevel7.unity
+    guid: b132f724c68f6b2428254a134ce60cb4
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/info/JavaInfoLevel8.unity
+    guid: bc12bc8e98d6f8f44ab5917c09b99e78
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/info/JavaInfoLevel9.unity
+    guid: 2191eb25971a6bb46ba903d3f4f9ca15
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/info/JavaInfoLevel10.unity
+    guid: 236573fa891f5f0408c3257e41e87a33
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/info/JavaInfoLevel11.unity
+    guid: eefd49973d9835b49878bbbe5cfd7f1b
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/info/JavaInfoLevel12.unity
+    guid: ac1397735df16da448c9329b05cf00df
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/info/JavaInfoLevel13.unity
+    guid: 6e9d4cb1a5944e44fa885550aa7dd9e4
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/info/JavaInfoLevel14.unity
+    guid: 6c7966f2b32e35c479c6cfb622c05fdc
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/info/JavaInfoLevel15.unity
+    guid: 5bc4112546ad0da4eac67abab6499d15
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/info/JavaInfoLevel16.unity
+    guid: 77ecac844b14f394dbc0dd667cba0086
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/info/JavaInfoLevel17.unity
+    guid: bf0a780081b1c1d429219573b3bb8e20
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/info/JavaInfoLevel18.unity
+    guid: 8fb8d24c7f5c2e04fae1dc23fb60bf9d
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/info/JavaInfoLevel19.unity
+    guid: b4c50dd5093aab848a16d3b0e359cd2f
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/info/JavaInfoLevel20.unity
+    guid: a778cf2990634b140adf0f7b0915394f
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/info/JavaInfoLevel21.unity
+    guid: e7c81af4a8cd9814aa4b87d870fd01c1
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/info/JavaInfoLevel22.unity
+    guid: c9cc3ac71b843e244a30d1912ca8d55e
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/info/JavaInfoLevel23.unity
+    guid: fe7f678a0340ee240b3538ad4a6e8fc8
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/info/JavaInfoLevel24.unity
+    guid: 711d2ea8a00bd68479ce266ecf88c860
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/info/JavaInfoLevel25.unity
+    guid: 0d2f8ca8d4d867d44900782d7ebd3715
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/info/JavaInfoLevel26.unity
+    guid: 54f61fb787cd3a94eadcca1ba4b95f57
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/info/JavaInfoLevel27.unity
+    guid: 1f83bf3afb67d3d4d8a05dd5ea913f5a
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level1/JavaLevel1-1.unity
+    guid: 2ee55f2d26ed22241b7dfeee0d76557f
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level2/JavaLevel2-1.unity
+    guid: 4721cd9b8c1c87a499f3a5084329b625
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level2/JavaLevel2-2.unity
+    guid: cd37258884300344da6512e73ac92d24
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level2/JavaLevel2-3.unity
+    guid: 9f9ba16bd4b4bb1468e54d0e1bfdded0
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level3/JavaLevel3-1.unity
+    guid: 3917b38f85c43344b94639941defcbd4
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level3/JavaLevel3-2.unity
+    guid: afb879ce7f3c2394ebea6cd4a93b7af1
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level3/JavaLevel3-3.unity
+    guid: bf3b0b6eb2c79804c8dafa47fcdc16bb
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level4/JavaLevel4-1.unity
+    guid: 7475f1862ae0bbd439066bd18923d492
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level4/JavaLevel4-2.unity
+    guid: 370aa4a82a3ff82449b8cd5fa9ee295c
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level5/JavaLevel5-1.unity
+    guid: 481a1e206d9bba841b65e9d3bc055cad
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level5/JavaLevel5-2.unity
+    guid: be0d628dbc985114e93edd01e6f9f1d0
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level5/JavaLevel5-3.unity
+    guid: 5fc416c6a58decb43b81b12ef9ea36a7
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level6/JavaLevel6-1.unity
+    guid: 8fa03b3605dbf42438e9dcb0db552d6f
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level6/JavaLevel6-2.unity
+    guid: dcc165b5a9128644e894b2a79620370e
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level6/JavaLevel6-3.unity
+    guid: b881b2d6b22db534dae1d1038fb1b3d5
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level7/JavaLevel7-1.unity
+    guid: 282cec9e9db0e9d4b8fcc6e2b93ccb26
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level7/JavaLevel7-2.unity
+    guid: fc5b456de287d104fa8113ec3deef6f8
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level7/JavaLevel7-3.unity
+    guid: c6879fdc296b8c0468eab98aa7ae8782
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level8/JavaLevel8-1.unity
+    guid: a48b8a0118c8bd447afed4bef23bd945
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level8/JavaLevel8-2.unity
+    guid: e6d5eb413eee6f248bc34fb8c0a489da
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level8/JavaLevel8-3.unity
+    guid: 574acb06e06cc6c41b394e08d86a5360
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level9/JavaLevel9-1.unity
+    guid: c4b1c4d922f4a1747801f7e3ca472238
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level9/JavaLevel9-2.unity
+    guid: 1ddc297ce1a5cc040af398098c5a1bd1
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level9/JavaLevel9-3.unity
+    guid: fa6b54d260e6fb642ac0f977626fdc15
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level10/JavaLevel10-1.unity
+    guid: afd5476565d63164faa8e068e7a4c466
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level10/JavaLevel10-2.unity
+    guid: b52644a93b8d5db468cffa508c5d86f8
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Easy/Level10/JavaLevel10-3.unity
+    guid: e3415cc3c55017148aec4079435ae9cf
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level11/JavaLevel11-1.unity
+    guid: 719d54af72d729348b125d3fd2cd40cf
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level11/JavaLevel11-2.unity
+    guid: b52cf0cc9924e0e45b27dfa9437c4e4a
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level11/JavaLevel11-3.unity
+    guid: b5a9a809750b87f4e93ae5bcebe3b56d
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level12/JavaLevel12-1.unity
+    guid: f54fea4dfcf4057418b6459efd93e2b5
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level12/JavaLevel12-2.unity
+    guid: 9fb9c60e513b3e94d88381a24d189569
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level12/JavaLevel12-3.unity
+    guid: 4a8c3aae8b609614eaefd3ae36134afd
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level13/JavaLevel13-1.unity
+    guid: b51b62d5a48732d4a924b8a88ea02b8e
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level13/JavaLevel13-2.unity
+    guid: 0312d53d0b11c2240ab5a19feb583e81
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level13/JavaLevel13-3.unity
+    guid: 15a0aeb6fb0d8044cb518bb61d95c876
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level14/JavaLevel14-1.unity
+    guid: cf267fbeff79e604b927d78862a64cc3
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level14/JavaLevel14-2.unity
+    guid: ae9ae84685b62c2488884d4d51b92e50
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level14/JavaLevel14-3.unity
+    guid: 1a260e74c007e1244b19013301602c2b
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level15/JavaLevel15-1.unity
+    guid: 85614dcd65be654459d44328438cc823
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level15/JavaLevel15-2.unity
+    guid: 1ae55e5983119724081310dda75e3e23
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level15/JavaLevel15-3.unity
+    guid: f8f8e74b3c18d274dbd50910d130b3fb
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level16/JavaLevel16-1.unity
+    guid: fc0ff0985ef5af94c9e363e2d68d5f9e
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level16/JavaLevel16-2.unity
+    guid: b1bd05ae697438746813950fb154a5a8
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level17/JavaLevel17-1.unity
+    guid: 6bec0e8828d79b546b64d34680667de4
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level17/JavaLevel17-2.unity
+    guid: bba5863df80c5d04eaaf3591d78414cf
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level18/JavaLevel18-1.unity
+    guid: 4921c80d35d956f4f9386c09e7f42d6b
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level18/JavaLevel18-2.unity
+    guid: ba9fc687bca9dbe4b892fab5c8c2cd28
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level18/JavaLevel18-3.unity
+    guid: 05a52364b6359a446a8fa904c0d2b7c6
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level19/JavaLevel19-1.unity
+    guid: 738e9b4b6918c19488fff4b2c005d074
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level19/JavaLevel19-2.unity
+    guid: b946652cb67616642b4e4cc428a3ebda
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level19/JavaLevel19-3.unity
+    guid: 267b47cab752671488ff7ab061feee82
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level20/JavaLevel20-1.unity
+    guid: d776713f76abd1749931486177151f4d
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level20/JavaLevel20-2.unity
+    guid: f262cc4ce790d944dab38de366f0b18a
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level20/JavaLevel20-3.unity
+    guid: 6a9bbe945d7928d49b9117036462ef10
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level21/JavaLevel21-1.unity
+    guid: 4c0c53f3ddba30747a163ccb1dd982a1
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level21/JavaLevel21-2.unity
+    guid: 2d6a2318a996ca749b11c1bce14242da
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Normal/Level21/JavaLevel21-3.unity
+    guid: c411e0fd050dce14a9eb3ed01115c26b
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/Level22/JavaLevel22-1.unity
+    guid: 64d00afff6daa154fa16d9f2e1c2fcf7
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/Level22/JavaLevel22-2.unity
+    guid: f6a875f994992be4096b7d8054f6b7f2
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/Level23/JavaLevel23-1.unity
+    guid: 17334bbab2269a64c833e2753577f403
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/Level23/JavaLevel23-2.unity
+    guid: 21c73aead839aea4b8e3cc163e0eec20
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/Level24/JavaLevel24-1.unity
+    guid: fcd077e4d76aa3d48ad894a4d5a76519
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/Level24/JavaLevel24-2.unity
+    guid: d3d91893fb89c714297cbebf713d5f4b
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/Level25/JavaLevel25-1.unity
+    guid: 25ecb9da4e509a446b6e9b3a80b78990
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/Level25/JavaLevel25-2.unity
+    guid: d18edccb1540a5c4d93b910223fb073e
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/Level26/JavaLevel26-1.unity
+    guid: 5d8ee06ed2b25dc41a504854444d91eb
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/Level26/JavaLevel26-2.unity
+    guid: ef4c9c22c3f67194d8362ba26fcf3eb8
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/Level27/JavaLevel27-1.unity
+    guid: 70b5a52adaca4094a827d2ae703dd2cd
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Java/Hard/Level27/JavaLevel27-2.unity
+    guid: 7f90b70d9a1d43e459ef97653880c6e4
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/info/PythonInfoLevel1.unity
+    guid: 74a3f85f7a69cb744a81ff267285488c
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/info/PythonInfoLevel2.unity
+    guid: 5b6de86a4532ec445809d02306d2a017
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/info/PythonInfoLevel3.unity
+    guid: 208116a319c6abf489f78ee36342b650
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/info/PythonInfoLevel4.unity
+    guid: 772340efe14af3444a5a247a9e8ecab4
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/info/PythonInfoLevel5.unity
+    guid: 0a1bd5615f4d8f94391044083e48cfaf
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/info/PythonInfoLevel6.unity
+    guid: d7e0463ef450a0f42a29e44d35bef37a
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/info/PythonInfoLevel7.unity
+    guid: 52b71d240e1e8b744b2d0e515c2f41aa
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/info/PythonInfoLevel8.unity
+    guid: cf13100cea4660240ae54e8c927691b1
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/info/PythonInfoLevel9.unity
+    guid: 874af0b22e0a03f4894d263c97936758
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/info/PythonInfoLevel10.unity
+    guid: 50c6c0b8ba5f7b04680aee5e4e4dbf7c
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/info/PythonInfoLevel11.unity
+    guid: 4c706ba55f2657941aa39e7089d66a92
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/info/PythonInfoLevel12.unity
+    guid: 08811dda13d9fe145a2f389cc0b74194
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/info/PythonInfoLevel13.unity
+    guid: fed65594c39e66b408bed0aef2228198
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/info/PythonInfoLevel14.unity
+    guid: 49e66a6d4eecba84bbc6f1c37678ae88
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/info/PythonInfoLevel15.unity
+    guid: 9de7cf1cbc35a4749bb41e748c8e5665
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/info/PythonInfoLevel16.unity
+    guid: 7916a3b197b44e240bd06796b6b292e5
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/info/PythonInfoLevel17.unity
+    guid: 213e5a4390b8b9d438aa46279dfe4acc
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/info/PythonInfoLevel18.unity
+    guid: 508c68b4a9ac28f49aa9f6c3bcd54535
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/info/PythonInfoLevel19.unity
+    guid: 3cf00f3d22b63c549ae39ed1b3100fb4
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/info/PythonInfoLevel20.unity
+    guid: 2b3c0b563f1d28a4999289fb02efc57f
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/info/PythonInfoLevel21.unity
+    guid: d3a82bcbcc57bb44c83c5bfb901e3a1a
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/info/PythonInfoLevel22.unity
+    guid: b1491ee9949eb3547a0b90e1d19a20ed
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/info/PythonInfoLevel23.unity
+    guid: 1a352d58eab7450439ff66a66b440190
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/info/PythonInfoLevel24.unity
+    guid: be93aa73a24c6a9438b3d649e7af4419
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/info/PythonInfoLevel25.unity
+    guid: 44a75dfbb1079c14c9448c721e918091
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level1/PythonLevel1-1.unity
+    guid: ed256494a03d33b42b5273058f416e13
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level2/PythonLevel2-1.unity
+    guid: 463feb6d6bb1df948be8bc1fe6255670
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level2/PythonLevel2-2.unity
+    guid: d001fb10c1f0f544eae63a632281f158
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level2/PythonLevel2-3.unity
+    guid: 58a5124d8fcf0534688ffa062b9d470b
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level3/PythonLevel3-1.unity
+    guid: d1d23205efdf25e4d8370aca21043f68
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level3/PythonLevel3-2.unity
+    guid: 30db6adc874544148b5d2a90988815dd
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level3/PythonLevel3-3.unity
+    guid: bfa4a20f21aa2f64883b2de6c321d6fa
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level4/PythonLevel4-1.unity
+    guid: e7e3910873e07604e822f262c29481e6
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level4/PythonLevel4-2.unity
+    guid: 4202f2fea3e6eb74d9ec28a99dff24ab
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level5/PythonLevel5-1.unity
+    guid: 71a68c0646559c24b9ce2bb92a15abc9
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level5/PythonLevel5-2.unity
+    guid: 3854a2705b1c1dd4380aa934198802c2
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level5/PythonLevel5-3.unity
+    guid: c346e3313288fc6459194c26e30375ca
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level6/PythonLevel6-1.unity
+    guid: 07203d854547b6f479df0cb426a60c29
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level6/PythonLevel6-2.unity
+    guid: 541df363a225158498962b59f3d04b4a
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level6/PythonLevel6-3.unity
+    guid: e4efc36a603e39e41a8523ae62444a04
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level7/PythonLevel7-1.unity
+    guid: 3c5ef5af226344c41917f519715ea35e
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level7/PythonLevel7-2.unity
+    guid: 6d55f8a4d3106de44a32e622ac5b79e9
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level7/PythonLevel7-3.unity
+    guid: 2d4d796df3d2a3941b808fe59f02be06
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level8/PythonLevel8-1.unity
+    guid: 1c61e0fa6255565409c07bd782450b4d
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level8/PythonLevel8-2.unity
+    guid: 10cea9f512842b04ab33a91d9310a9b5
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level8/PythonLevel8-3.unity
+    guid: 0b483b76b23f97b4ba8ecaa83c7ed330
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level9/PythonLevel9-1.unity
+    guid: 35ada7fc7910c1e45981923ea28548b6
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level9/PythonLevel9-2.unity
+    guid: 4a057f54cb3431a4595cd075ec1dd647
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Easy/Level9/PythonLevel9-3.unity
+    guid: fcb67bdd400d16749919fc12bc72acb3
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level10/PythonLevel10-1.unity
+    guid: dc58d69637f97c74ba13a263864ba8e3
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level10/PythonLevel10-2.unity
+    guid: 6fc8e1ab5eb9fb747864fc4fb60377b5
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level10/PythonLevel10-3.unity
+    guid: 7cb3ae6e1d25f95478b262ebe7470c88
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level11/PythonLevel11-1.unity
+    guid: e1810a3fea0fb5243b48f584a4fd370b
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level11/PythonLevel11-2.unity
+    guid: 1857add089c682343ac26d531e519c2e
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level11/PythonLevel11-3.unity
+    guid: b4c60b50bd2de5d49bb5b44c3192be78
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level12/PythonLevel12-1.unity
+    guid: 18565318c7597bd41a5949fe42df111f
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level12/PythonLevel12-2.unity
+    guid: 05d501ea1f9f8484fa789dd31a622442
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level12/PythonLevel12-3.unity
+    guid: 3aa803e49523ed74ab99d5fe84b48d6b
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level13/PythonLevel13-1.unity
+    guid: ce3762fd8644ff14f9938bcfa0a52597
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level13/PythonLevel13-2.unity
+    guid: 44d0988281a1e6c41be212a90fb59223
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level13/PythonLevel13-3.unity
+    guid: c9866d892f623d448810aa1c1e1fad95
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level14/PythonLevel14-1.unity
+    guid: d13c4ba0139e1794fbc4a79c7ae5c0a6
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level14/PythonLevel14-2.unity
+    guid: aafd03cf62b922544bf48f9a300197ab
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level15/PythonLevel15-1.unity
+    guid: a23f9f649d5e4e7449f9b3cf811c8a92
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level15/PythonLevel15-2.unity
+    guid: 769cf65dd3bfb824aa95740e5224627e
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level16/PythonLevel16-1.unity
+    guid: bd0331e5fd8910c4bae57e9b02385c45
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level16/PythonLevel16-2.unity
+    guid: 324f10f8de14f5e4eabfb066b6700165
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level16/PythonLevel16-3.unity
+    guid: d590fa5d5d386244c90eb84bf77d1c45
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level17/PythonLevel17-1.unity
+    guid: d5fa411d4bd98a9498c723abd2028e57
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level17/PythonLevel17-2.unity
+    guid: 8f2cc093cd447fd4fad68739ec2d78aa
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level17/PythonLevel17-3.unity
+    guid: 0d3620dcc40f12b42a5200dc73599170
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level18/PythonLevel18-1.unity
+    guid: 41bc92cc875867d47ab3879c74bc5065
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level18/PythonLevel18-2.unity
+    guid: 0318142a3eba6bc4ca95d87f1c1e8196
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level18/PythonLevel18-3.unity
+    guid: ddb8350e33b280940a9f7785d79b450a
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level19/PythonLevel19-1.unity
+    guid: e1d7829bacdf1574ba5e90ddd4943022
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level19/PythonLevel19-2.unity
+    guid: ad9af6253a6579140bfd0c6eab8942db
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Normal/Level19/PythonLevel19-3.unity
+    guid: a030a256b4ac8cd45b73f8b1f5663d9e
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/Level20/PythonLevel20-1.unity
+    guid: 3019e0e4cdd16cb4b85e843be08a6bc8
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/Level20/PythonLevel20-2.unity
+    guid: 9e505986980aabd4999e44d086f5bb61
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/Level21/PythonLevel21-1.unity
+    guid: d04161bb4c43f6b43989c1756c78440e
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/Level21/PythonLevel21-2.unity
+    guid: cb158508de6dc3b4084e36e3c7469b49
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/Level22/PythonLevel22-1.unity
+    guid: 8cd872bac4ac98746babe731684231c7
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/Level22/PythonLevel22-2.unity
+    guid: 7f0c4bf2ba28d4a418684ed8c3c20d21
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/Level23/PythonLevel23-1.unity
+    guid: f42be9747683cf44d94710dfd4dd435b
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/Level23/PythonLevel23-2.unity
+    guid: 2b9d891e15c027a45943092c161cd659
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/Level24/PythonLevel24-1.unity
+    guid: 0654c7853cecb8c4f91cbce4e075be1f
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/Level24/PythonLevel24-2.unity
+    guid: 9ba7a9cedafcd8b4582ec8f48b73556d
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/Level25/PythonLevel25-1.unity
+    guid: f6509b042834f374294fe0d6fcd329fb
+  - enabled: 1
+    path: Assets/Scenes/GamePlay/Python/Hard/Level25/PythonLevel25-2.unity
+    guid: 1462bba1acb1a2449b0b58993ff2ee55
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0
