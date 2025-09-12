@@ -31,9 +31,12 @@
 
 | ตัวอย่างเกมเพลย์ |
 |-----------------|
-| ![Gameplay 1](Assets/Screenshots/gameplay.png) |
-| ![Gameplay 2](Assets/Screenshots/gameplay2.png) |
-| ![Gameplay 3](Assets/Screenshots/gameplay3.png) |
+| ![Gameplay 1](Screenshots/Screenshot%202025-09-12%20165450.png) |
+| ![Gameplay 2](Screenshots/Screenshot%202025-09-12%20165519.png) |
+| ![Gameplay 3](Screenshots/Screenshot%202025-09-12%20165551.png) |
+| ![Gameplay 4](Screenshots/Screenshot%202025-09-12%20165618.png) |
+| ![Gameplay 5](Screenshots/Screenshot%202025-09-12%20165625.png) |
+| ![Gameplay 6](Screenshots/Screenshot%202025-09-12%20165643.png) |
 
 ---
 
