@@ -55,7 +55,7 @@
 1. **Clone** หรือ **ดาวน์โหลด** โปรเจกต์จาก GitHub  
    ```bash
    git clone https://github.com/athicsmsu/Coding-For-Learning.git
-2. เปิดโปรเจกต์ด้วย Unity 2021+
+2. เปิดโปรเจกต์ด้วย Unity 6 (Editor version 6000.0.31f1 หรือใหม่กว่า)
 
 3. เปิด Scene หลักที่
    ```bash
