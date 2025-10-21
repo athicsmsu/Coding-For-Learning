@@ -23,13 +23,17 @@ public class LoginForm : MonoBehaviour
 
     public Text Email;
     public Text Password;
+    public InputField PasswordInput;
     public Text PasswordRegister;
+    public InputField PasswordRegisterInput;
     public Text EmailRegister;
     public Text UserNameRegister;
     public Text EmailForOTP;
     public Text OTP;
     public Text NewPassword;
+    public InputField NewPasswordInput;
     public Text ConfirmPassword;
+    public InputField ConfirmPasswordInput;
 
     public AudioSource wrongAudio;
     [Header("Notification UI")]
@@ -123,7 +127,7 @@ public class LoginForm : MonoBehaviour
     // ====== UPDATE VERSION ======
     public void OnUpdateYes()
     {
-        string updateUrl = "https://drive.google.com/drive/u/0/folders/10VdT3HDxVNxkGLCA-maBoVRKnusV8J6L"; // 👉 ใส่ลิงก์ที่คุณต้องการ
+        string updateUrl = "https://drive.google.com/drive/folders/1HxaFSHTH9i-wEdFGewNB3noMHMNmuuzf?usp=drive_link"; // 👉 ใส่ลิงก์ที่คุณต้องการ
         Application.OpenURL(updateUrl);
     }
 
@@ -258,9 +262,11 @@ public class LoginForm : MonoBehaviour
     // ====== LOGIN ======
     public void LoginBtnClick()
     {
+        string realPassword = PasswordInput.text.Trim();
+
         Debug.Log("➡️ กดปุ่ม Login แล้ว");
         if (!IsValidInput(Email.text.Trim(), 1, true) ||
-            !IsValidInput(Password.text.Trim(), 1, false))
+            !IsValidInput(realPassword, 1, false))
         {
             ShowNotification("⚠️ Email หรือ Password ไม่ถูกต้อง");
             wrongAudio.Play();
@@ -268,7 +274,7 @@ public class LoginForm : MonoBehaviour
         }
 
         Loading.ShowLoadingScreen();
-        StartCoroutine(LoginCoroutine(Email.text.Trim(), Password.text.Trim()));
+        StartCoroutine(LoginCoroutine(Email.text.Trim(), realPassword));
     }
 
 
@@ -403,6 +409,7 @@ public class LoginForm : MonoBehaviour
 
     public void RegisterBtnClick()
     {
+
         Debug.Log("➡️ กดปุ่ม Register แล้ว");
         if (string.IsNullOrEmpty(UserNameRegister.text.Trim()))
         {
@@ -421,12 +428,12 @@ public class LoginForm : MonoBehaviour
             wrongAudio.Play();
             return;
         }
-        else if (!IsValidInput(PasswordRegister.text.Trim(), 4, false))
+        else if (!IsValidInput(PasswordRegisterInput.text.Trim(), 4, false))
         {
             ShowNotification("⚠️ รหัสผ่านต้องมีความยาวอย่างน้อย 4 ตัวอักษร");
             wrongAudio.Play();
             return;
-        }else if (PasswordRegister.text.Contains(" "))
+        }else if (PasswordRegisterInput.text.Contains(" "))
         {
             ShowNotification("⚠️ รหัสผ่านห้ามมีช่องว่าง");
             wrongAudio.Play();
@@ -437,7 +444,7 @@ public class LoginForm : MonoBehaviour
         StartCoroutine(RegisterCoroutine(
             UserNameRegister.text.Trim(),
             EmailRegister.text.Trim(),
-            PasswordRegister.text.Trim()
+            PasswordRegisterInput.text.Trim()
         ));
     }
 
@@ -601,22 +608,23 @@ public class LoginForm : MonoBehaviour
     // ====== RESET PASSWORD ======
     public void SubmitNewPassword()
     {
-        if (!IsValidInput(NewPassword.text.Trim(), 4, false) ||
-            !IsValidInput(ConfirmPassword.text.Trim(), 4, false))
+
+        if (!IsValidInput(NewPasswordInput.text.Trim(), 4, false) ||
+            !IsValidInput(ConfirmPasswordInput.text.Trim(), 4, false))
         {
             ShowNotification("⚠️ รหัสผ่านต้องมีความยาวอย่างน้อย 4 ตัวอักษร");
             wrongAudio.Play(); // เล่นเสียงผิดพลาด
             return;
-        }else if (NewPassword.text.Contains(" ") || ConfirmPassword.text.Contains(" "))
+        }else if (NewPasswordInput.text.Contains(" ") || ConfirmPasswordInput.text.Contains(" "))
         {
             ShowNotification("⚠️ รหัสผ่านห้ามมีช่องว่าง");
             wrongAudio.Play(); // เล่นเสียงผิดพลาด
             return;
         }
-        if (NewPassword.text == ConfirmPassword.text)
+        if (NewPasswordInput.text == ConfirmPasswordInput.text)
         {
             Loading.ShowLoadingScreen();
-            StartCoroutine(ResetPasswordCoroutine(EmailForOTP.text, NewPassword.text));
+            StartCoroutine(ResetPasswordCoroutine(EmailForOTP.text, NewPasswordInput.text));
         }
         else
         {
